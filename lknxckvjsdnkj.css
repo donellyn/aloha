@@ -1,0 +1,456 @@
+/* ####################################################################### */
+/* Modelo de P?gina do Usu?rio Spirit                                      */
+/* Atrav?s desse arquivo voc? pode personalizar seu perfil                 */
+/* Voc? pode mudar as cores, fontes e imagens                              */
+                                                                         
+/* ####################################################################### */
+/* Estilos de todo o Site                                                 */
+
+
+body {
+	background: #f9f9f9 url(https://imgur.com/D0RHem2.png) repeat-Y center center ; 
+}
+
+body::-webkit-scrollbar-thumb{ 
+background:#fedd06; 
+border:2px solid #000; 
+height:auto; 
+border-radius:0px; 
+} 
+
+body::-webkit-scrollbar{ 
+background-color:#000; 
+height:08px; 
+width:08px; 
+} 
+
+#fundo {
+	background:url(https://imgur.com/6KEuUAn.png) no-repeat center top ;
+
+}
+
+fieldset {
+	border: 01px solid #28aff3;
+border-radius: 10px 10px;
+        color: #696969;
+}
+
+#meio span, #meio span a, .admin, .admin:hover, .ativo, .ativo:hover, .link {
+        color:#872477;
+}
+
+#base {
+	background: url() repeat center top;
+}
+
+/* ####################################################################### */
+/* Estilos da parte de Cima do Site                                        */
+
+#cima #logo {
+        height: 190px;
+	background: url(https://imgur.com/HBkuPZ5.png);
+}
+
+#nav .dropdown-menu > li > a { 
+color: #000!important;
+ background: #fff!important; 
+}
+
+#nav .dropdown-menu > li > a:hover{
+ color: #ccc!important; 
+background: #f6f6f6!important;
+ }
+
+#nav>ul {
+color: #e33131;
+background-color:none! important;
+border-radius: 0px 0px;
+border: none;
+font: bold 11px arial;
+text-align: center;
+
+}
+
+#nav a {
+          color: #EE7600; 
+text-align: center;
+background: #FFD700;
+border: 1px solid #FFC125;
+opacity: 0,5px;
+padding: 2px 4px 2px 4px!important; 
+margin-right: 05px; 
+text-transform:lowercase; 
+font-weight:lighter; 
+font-size: 12px!important;
+font-variant:small-caps!important;
+font-family:Calibri!important;
+ letter-spacing: 1px; 
+border-radius:  05px;
+-webkit-transition:All 0.4s linear; 
+-moz-transition:All 0.4s linear; 
+-o-transition:All 0.4s linear; 
+transition: all 0.4s linear; 
+}
+
+#nav a:hover {
+         
+       color: #FFF; 
+border: 1px solid #EE9A00;
+font-size: 12px!important; 
+background-color: #FFA500;
+padding: 2px 4px 2px 4px!important; 
+padding: 05px; 
+-webkit-transition:All 0.4s linear; 
+-moz-transition:All 0.4s linear; 
+-o-transition:All 0.4s linear; 
+transition: all 0.4s linear;
+
+}
+
+#secaoNav  {
+	color: #872477;
+background-color:none! important;
+border-radius: 0px 0px;
+border: none;
+font-family: Calibri, Times, sans-serif !important; 
+text-align: center;
+}
+
+#secaoNav, #secaoNav a {
+       color: #872477; 
+text-transform: uppercase; 
+text-align:center;
+letter-spacing: 1px; 
+font-size: 10px!important; 
+font-family: Calibri, Times, sans-serif !important; 
+padding: 10px; 
+}
+
+/* ####################################################################### */
+/* Estilos da parte de Baixo do Site                                      */
+
+#baixo {
+	border-top: 5px solid #E9E9E9;
+	background-color: #EFEFEF;
+	color: #838383;
+}
+
+#baixo a {
+	color: #666666;
+}
+
+/* ####################################################################### */
+/* Estilos do Menu Direito do Site                                         */
+
+.boxMenuDireito {
+	color:#e33131;
+
+}
+
+.boxMenuDireito .tituloMenuDireito {
+background:#eff1f1 ;
+border: 2px solid #e7eaea;
+border-bottom: none;
+font-family: Calibri, Times, sans-serif  !important;
+  text-transform: uppercase; 
+letter-spacing: 5px; 
+font-size: 11px!important; 
+text-align: center;
+height:45px!Important; 
+padding: 35px;
+width: 300px;
+color:#8f8e8e;
+border-radius: 10px 10px 0px 0px;
+
+}
+
+
+.boxMenuDireito .textoMenuDireito{
+border: 2px solid #e7eaea;
+border-top: none;
+border-radius: 0px 0px 10px 10px;
+padding: 08px;
+        background:#eff1f1;
+        color:#696969;
+text-transform:lowercase; 
+font-weight:lighter; 
+font-size: 11px!important;
+font-family:Calibri!important;
+width: 300px; 
+}
+.boxMenuDireito .textoMenuDireito a{
+text-transform:lowercase; 
+font-weight:lighter; 
+font-size: 12px!important;
+font-family:Calibri!important;
+}
+
+/* ####################################################################### */
+/* Estilo das imagens do menu direito, tal como os avatares               */
+
+ 
+
+.boxMenuDireito img{
+       
+max-width: 80px;
+max-height: 80px;
+opacity: .8; 
+border-radius: 05px; 
+-webkit-filter: grayscale(30%); 
+transition: .7s; 
+transform: rotate(0deg) scale(0.8); 
+border: 1px solid #9999b3; 
+box-shadow: #f3f3f3 1px 1px 0px; 
+ 
+} 
+
+.boxMenuDireito img:hover{ 
+border-radius: 05%; 
+opacity: 1; 
+transition: 0.5s; 
+-webkit-filter: grayscale(0%) brightness(110%) blur(0px) hue-rotate(300deg); 
+transform: rotate(0deg) scale(0.6) translateY(0px) translateX(0px); 
+
+
+}
+.boxMenuDireito .scroll::-webkit-scrollbar-thumb{ 
+background-color:#f2f2f2; 
+border:1px solid #f8f8f8; 
+border-radius:05px; 
+height:auto; 
+
+} 
+
+.boxMenuDireito .scroll::-webkit-scrollbar{ 
+height:4px; 
+width:7px; 
+background-color:#fff; 
+border:1px solid #f8f8f8; 
+}
+
+/* ####################################################################### */
+/* Estilos que pertencem ao Conte?do do Site                               */
+
+
+.boxConteudo .texto i {
+font-family: "georgia", Calibri;
+font-size:12px;
+color: #5f0301!important;
+} 
+
+#quote {
+	color: #696969;
+	background:url(https://imgur.com/UYzWTMK.png) repeat;
+border-radius: 06px;
+        border:1px solid #e9e9e9;
+border-right: 3px solid #fff;
+        text-transform:lowercase; 
+font-weight:lighter; 
+font-size: 12px!important;
+font-family:Calibri!important;
+}
+
+.boxConteudo .titulo, .boxConteudo h1, .boxConteudo h2, .boxConteudo h1 a, .boxConteudo h2 a {
+	color: #fff; 
+letter-spacing:0px; 
+text-transform:lowercase; 
+font-style: italic;
+text-shadow: #fa9101 0px 0px 2px;
+font-weight:lighter; 
+font-size: 16px!important;
+font-family:georgia!important;
+ letter-spacing: 2px; 
+text-align: left;
+}
+
+.h1.tituloPrincipal strong, h2.tituloPrincipal strong { 
+font-size: 16px!important;
+}
+
+.boxConteudo .titulo,.boxConteudo h1,.boxConteudo h2{
+        background:transparent;
+border: none;
+padding: 05px;
+border-radius: 0px 0px;
+}
+
+.boxConteudo .textoBg1, .boxConteudo tr.textoBg1 td {
+	background:url(https://imgur.com/UYzWTMK.png) repeat;
+	color: #696969;
+border: 1px solid #e9e9e9;
+border-radius: 05px ;
+font-family:arial!important;
+padding: 06px;
+margin-bottom:2px;
+}
+.boxConteudo img { 
+opacity: .9; 
+transition: 1s; 
+} 
+
+.boxConteudo img:hover { 
+opacity: 1; 
+transition: 0.5s; 
+-webkit-filter: grayscale(0%) brightness(110%) blur(0px) hue-rotate(300deg); 
+}
+
+.boxConteudo .textoBg2, .boxConteudo tr.textoBg2 td {
+	background:#f2f2f2;
+	color: #696969;
+        border:1px solid #fff;
+border-radius:  05px;
+padding: 09px;
+font-family: arial! important;
+margin-top:7px; 
+margin-bottom:7px;
+}
+
+.boxConteudo .baixo {
+	background-color:transparent;
+	color:#fff;
+        border:none;
+margin-top:4px; 
+margin-bottom:4px;
+border-radius: 0px 0px;
+text-transform:lowercase; 
+font-weight:lighter; 
+font-size: 12px!important;
+font-variant:small-caps!important;
+font-family:Calibri!important;
+ letter-spacing: 0px; 
+text-align:center!important;
+}
+
+#boxUsuario .baixo ul li a{ 
+
+color: #fff; 
+letter-spacing:1px; 
+font-size:12px!important; 
+font-variant:small-caps!important;
+font-family:Calibri!important;
+font-weight: bold; 
+}
+
+
+/* ####################################################################### */
+/* Elementos Condensados                                                   */
+
+a, body {
+	color: #5e5d5d;
+
+}
+a:hover {
+    color: #40e4fd;
+}
+
+#meio a:link { 
+              text-decoration: none;
+
+} 
+
+/* ####################################################################### */
+/* Estilo das Caixas de Texto onde se escreve coment?rios, recados
+no Livro de Visitas e a Busca no menu de Amigos                            */
+
+#meio input {
+    background-color: #ff3e84; /* Cor do fundo */
+    color: #000; /* Cor do Texto */
+    border: 1px SOLID #ea4e87; /* Tamanho e cor das bordas */
+    border-radius: 05px 05px; /* A propriedade CSS3 border-radius destina-se a definir bordas arredondadas. */
+    font-size: 12px !important; /* Tamanho da fonte */
+}
+
+#meio textarea {
+    background-color: #fff!important;
+    font-family: georgia;
+    color: #fa2367 !important;
+    font-size: 14px !important;
+    border: 02px solid #28aff3 !important;
+    border-radius:10px 10px;
+}
+
+/* ####################################################################### */
+/* Bot?o Adicionar                                                         */
+
+#nav .btn {
+    color: #FFF !important;
+    background-color: #34ccfd!important;     
+border: 1px solid #2ab4f5!important;   
+}
+
+/* ####################################################################### */
+/* Bot?es do Meio (Adicionar aos favoritos, Observar Usu?rio, etc)        */
+
+#meio .btn {
+    color: #fff!important; 
+    background-color: #ff3e84 !important;  
+font-family: Calibri, Times, sans-serif !important;
+text-transform: uppercase; 
+font-size: 10px;
+padding: 4px 6px 4px 6px!important; 
+border: 1px solid #ee5b91;
+border-radius: 05px 05px;
+margin-right: 05px; 
+}
+
+#meio .btn:hover {
+    color: #fdb302 !important;
+    background-color:#ffdd00!important;
+border: 1px solid #f0d10b;
+font-family: Calibri, Times, sans-serif !important;
+text-transform: uppercase; 
+padding: 4px 6px 4px 6px!important; 
+font-size: 10px;
+
+}
+
+#meio .btn span {
+    color: #fff;
+
+}
+
+/* ####################################################################### */
+/* Dropdown dos Menus do Meio                                                                                              */
+
+#meio > ul > li > div > ul.dropdown-menu > li >a {
+    color: #fff;     
+}
+
+#meio .dropdown-menu > li > a:hover{
+    color:#b22222 !important;
+    background: #000 !important;     
+}
+
+#fanficPopupContent .favorito i, #fanficPopupContent .comentario i {
+font-family: Helvetica,Arial,sans-serif; 
+}
+
+
+div.spoiler-box { 
+min-height:0px;
+} 
+.spoiler-box, .spoiler-hidden { 
+background-color: #fff;
+} 
+
+.spoiler-visible { 
+color: #696969; 
+background-color: #fff; 
+border-radius: 05px;
+
+} #meio .spoiler { 
+background-color: #fff;
+padding: 3px 6px 3px 6px! important;
+border-radius: 05px;
+color: #696969;
+text-align: center; 
+border: 1px solid #fff;
+
+} #meio .spoiler a { 
+color: #fc2664;
+
+} #meio .spoiler a:hover { 
+color: #39cdfb;
+} #meio .spoiler span { 
+color: #e8e8e8; 
+}
